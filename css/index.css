@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+/* Botones */
+a.button {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    border: 1px solid #3498db;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Efecto al pasar el mouse */
+a.button:hover {
+    background-color: #217dbb;
+    border-color: #217dbb;
+}
+
+/* Caja de resultados */
+#resultado {
+    background-color: white;
+    min-height: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+}
+
+/* Lista de resultados */
+#resultado li {
+    list-style: none;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Enlaces que aparecen desde la API */
+#resultado li a {
+    display: inline-block;
+    background-color: #eaeaea;
+    color: black;
+    border: 1px solid gray;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* Efecto de los enlaces de la API */
+#resultado li a:hover {
+    background-color: #d5d5d5;
+}
